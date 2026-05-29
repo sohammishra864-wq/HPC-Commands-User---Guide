@@ -1,2 +1,5 @@
-Requesting GPU ( here 2 )
+#Requesting GPU ( here 2 )
 qsub -I -q gpu -l ngpus=2
+
+#Check the model training
+tail -f model.log
