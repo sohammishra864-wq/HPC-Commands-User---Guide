@@ -1,0 +1,2 @@
+Requesting GPU ( here 2 )
+qsub -I -q gpu -l ngpus=2
