@@ -6,3 +6,9 @@ tail -f model.log
 
 # kill the process
 kill PID
+
+# editing code
+nano model.py
+ctrl + O = to save
+ctrl + x = to exit
+ctrl + W = to search or find the specific ( text ) in nano -- very useful while debugging
