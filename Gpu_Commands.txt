@@ -3,3 +3,6 @@ qsub -I -q gpu -l ngpus=2
 
 #Check the model training
 tail -f model.log
+
+# kill the process
+kill PID
