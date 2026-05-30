@@ -18,5 +18,7 @@ using the scp command
 scp filelocation(local) ssh(address) then the location where in hpc
 ex:
 
+# the dimensions are very important as the results might be inconsistent
+
 
 grep -R to see progress of training
