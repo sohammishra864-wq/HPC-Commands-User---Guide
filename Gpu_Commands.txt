@@ -12,3 +12,7 @@ nano model.py
 ctrl + O = to save
 ctrl + x = to exit
 ctrl + W = to search or find the specific ( text ) in nano -- very useful while debugging
+
+# we cant download big files directly on login node in hpc so we need to upload by dowbnloading in laptop first
+using the scp command
+scp filelocation(local) ssh(address) then the location where in hpc
