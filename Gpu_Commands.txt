@@ -20,5 +20,7 @@ ex:
 
 # the dimensions are very important as the results might be inconsistent
 
+ export LD_LIBRARY_PATH=/path/to/libffi/lib:$LD_LIBRARY_PATH
+
 
 grep -R to see progress of training
